@@ -81,7 +81,30 @@
         <div class="capa"><a name="indice1"></a></div>
         <h2>Asteroides más grandes que han impactado en México<br><br></h2>
         <div class="gallery">
-          <a href=""><img src="img/01chupaderos.jpg" width="18%"></a>
+          <a href=""><img src="img/01chupaderos.jpg" id="ia1" width="18%"></a>
+          <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img">
+           </div>
+          <script>
+             var modal = document.getElementById("myModal");
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById("ia1");
+            var modalImg = document.getElementById("img");
+           img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+           }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+          // When the user clicks on <span> (x), close the modal
+          span.onclick = function() { 
+              modal.style.display = "none";
+          }
+          </script>
           <a href=""><img src="img/02bacubirito.jpg" width="18%"></a>
           <a href=""><img src="img/04toluca.jpg" width="18%"></a>
           <a href=""><img src="img/05coahuila01.jpg" width="18%"></a>
