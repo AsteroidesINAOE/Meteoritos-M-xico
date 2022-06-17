@@ -343,7 +343,7 @@ label {
   to {transform:scale(1)}
 }
 
-.close1 {
+.close1, .close2 {
   position: absolute;
   top: 50px;
   right: 40px;
@@ -357,16 +357,6 @@ label {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
-}
-
-.close2 {
-  position: absolute;
-  top: 50px;
-  right: 40px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
 }
 
 .close2:hover, .close2:focus {
