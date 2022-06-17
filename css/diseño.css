@@ -343,7 +343,8 @@ label {
   to {transform:scale(1)}
 }
 
-.close1, .close2 {
+.close1, .close2, .close3, .close4, .close5, 
+.close6, .close7, .close8, .close9, .close10{
   position: absolute;
   top: 50px;
   right: 40px;
@@ -353,17 +354,13 @@ label {
   transition: 0.3s;
 }
 
-.close1:hover, .close1:focus {
+.close1:hover, .close1:focus, .close2:hover, .close2:focus, .close3:hover, .close3:focus, .close4:hover, .close4:focus, .close5:hover, .close5:focus, 
+.clos6:hover, .close6:focus, .close7:hover, .close7:focus, .close8:hover, .close8:focus, .close9:hover, .close9:focus, .close10:hover, .close10:focus{
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
 }
 
-.close2:hover, .close2:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
 
 /*Ajustes tamaño de pantalla*/   
 @media screen and (max-width: 800px){
