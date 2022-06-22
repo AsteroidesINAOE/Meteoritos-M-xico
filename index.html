@@ -152,6 +152,30 @@
                 modal3.style.display = "none";
               }
             </script>
+            <img src="img/05coahuila01.jpg" id="ia4" width="18%">
+            <div id="myModal4" class="modal">
+                <span class="close4">&times;</span>
+                <img class="modal-content" id="img4">
+            </div>
+            <script>
+              var modal4 = document.getElementById("myModal4");
+
+              // Get the image and insert it inside the modal - use its "alt" text as a caption
+              var img4 = document.getElementById("ia4");
+              var modalImg4 = document.getElementById("img4");
+              img4.onclick = function(){
+                modal4.style.display = "block";
+                modalImg4.src = this.src;
+              }
+
+              // Get the <span> element that closes the modal
+              var span4 = document.getElementsByClassName("close4")[0];
+
+              // When the user clicks on <span> (x), close the modal
+              span4.onclick = function() { 
+                modal4.style.display = "none";
+              }
+            </script>
   
           <a href=""><img src="img/05coahuila01.jpg" width="18%"></a>
           <a href=""><img src="img/06allende01.jpg" width="18%"></a>
