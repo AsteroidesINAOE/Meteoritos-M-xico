@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/41bcea2ae3.js"  ></script>
     <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/app.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <link rel="stylesheet" href="css/diseño.css">
 </head>
@@ -89,25 +90,6 @@
                 <span class="close1">&times;</span>
                 <img class="modal-content" id="img1">
             </div>
-            <script>
-              var modal1 = document.getElementById("myModal1");
-
-              // Get the image and insert it inside the modal - use its "alt" text as a caption
-              var img1 = document.getElementById("ia1");
-              var modalImg1 = document.getElementById("img1");
-              img1.onclick = function(){
-                modal1.style.display = "block";
-                modalImg1.src = this.src;
-              }
-
-              // Get the <span> element that closes the modal
-              var span1 = document.getElementsByClassName("close1")[0];
-
-              // When the user clicks on <span> (x), close the modal
-              span1.onclick = function() { 
-                modal1.style.display = "none";
-              }
-            </script>
           <img src="img/02bacubirito.jpg" id="ia2" width="18%">
             <div id="myModal2" class="modal">
                 <span class="close2">&times;</span>
